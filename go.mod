@@ -1,3 +1,3 @@
-module go.innovationupstream.dev/go-genproto
+module go.innovationupstream.dev/genproto
 
 go 1.17
