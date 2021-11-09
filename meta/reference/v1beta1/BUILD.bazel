@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["reference.pb.go"],
-    importpath = "",
+    importpath = "go.innovationupstream.dev/genproto/meta/reference/v1beta1",
     visibility = ["//visibility:public"],
     deps = [
         "@org_golang_google_protobuf//reflect/protoreflect:go_default_library",
